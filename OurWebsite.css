@@ -6,6 +6,7 @@ header {
     padding-right: 50px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    background-color: rgb(255, 0, 0);
 }
 
 #content {
