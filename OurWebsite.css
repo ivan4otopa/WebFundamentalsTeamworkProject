@@ -1,6 +1,6 @@
 header {
     border: 1px solid black;
-    width: 400px;
+    width: 1000px;
     height: 100px;
     padding-left: 50px;
     padding-right: 50px;
@@ -10,8 +10,8 @@ header {
 
 #content {
     border: 1px solid black;
-    width: 500px;
-    height: 275px;
+    width: 1000px;
+    height: 500px;
 }
 
 aside {
@@ -34,7 +34,7 @@ nav {
 
 footer {
     border: 1px solid black;
-    width: 501px;
+    width: 1000px;
     height: 75px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
