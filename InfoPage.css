@@ -1,0 +1,26 @@
+header {
+    border: 1px solid black;
+    width: 900px;
+    height: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: 160px;
+}
+
+#content {
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    margin-left: 160px;
+}
+
+footer {
+    border: 1px solid black;
+    width: 1000px;
+    height: 75px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 160px;
+}
