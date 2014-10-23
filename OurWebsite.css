@@ -11,10 +11,9 @@ header {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     margin-left: 160px;
-    background-image: url("../images/header%20prototype%20troll%20uni.png");
+    background-image: url("images/header prototype troll uni.png");
     border-bottom: none;
 }
-
 #content {
     border: 1px solid black;
     width: 1000px;
@@ -23,7 +22,6 @@ header {
     border-top: none;
     border-bottom: none;
 }
-
 footer {
     border: 1px solid black;
     border-top:none;
