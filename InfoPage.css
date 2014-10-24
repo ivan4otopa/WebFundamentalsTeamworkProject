@@ -24,3 +24,32 @@ footer {
     border-bottom-left-radius: 15px;
     margin-left: 160px;
 }
+
+nav{
+    background-color: rgb(31,52,83);
+    height: 45px;
+    border-top: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    margin-left: 20px;
+    height: 100%;
+}
+li{
+    height: 70%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5%;
+    padding-top: 13px;
+}
+li:hover{
+    background:rgb(22,35,53);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
