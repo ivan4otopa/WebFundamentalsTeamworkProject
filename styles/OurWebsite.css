@@ -21,6 +21,7 @@ header {
     margin-left: 160px;
     border-top: none;
     border-bottom: none;
+    background-color: rgb(214,214,214);
 }
 footer {
     border: 1px solid black;
