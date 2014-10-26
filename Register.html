@@ -3,6 +3,7 @@
 <head>
     <title>TrollUni</title>
     <link rel="stylesheet" href="styles/OurWebsite.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/Register.css">
     <meta charset="UTF-8">
 </head>
 <body>
@@ -10,7 +11,8 @@
 
 </header>
 
-<div id="content">
+<div id="content">  
+
     <nav>
         <ul>
             <a href="Home.html"><li>Начало</li></a>
@@ -20,9 +22,24 @@
             <a href="AboutUs.html"><li>За нас</li></a>
         </ul>
     </nav>
-    <aside>
+    <form>
+        <label id="register">Регистрация</label>
+        <input type="text" placeholder="Име">
+        <input type="text" placeholder="Фамилия">
+        <input type="password" placeholder="Парола">
+        <input type="password" placeholder="Потвърди Парола">
+        <input type="email" placeholder="Email">
+        <button type="button" onclick="getElementById('hidden').style.display = 'block'; this.style.display = 'none'" id="joinus">Регистрация</button>
 
-    </aside>
+    </form>
+    <div id="gtroll">
+        <div id="hidden">
+            <div id="bubble1">
+            </div>
+            <div id="bubble2">TROLOLOL
+            </div>
+        </div>    
+    </div>
 </div>
 
 <main>
@@ -36,3 +53,4 @@
 </footer>
 </body>
 </html>
+
