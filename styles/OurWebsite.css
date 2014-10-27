@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(white,rgb(49,104,150), black);
+    background: linear-gradient(white,rgb(49,104,150));
     font-family: "Arial", Times, sans-serif;
 }
 div#content > header {
@@ -32,14 +32,6 @@ div#content > footer {
     border-bottom-left-radius: 15px;
     margin-left: 160px;
     background-color: rgb(31,52,83);
-    padding-top: 50px;
-}
-h3 {
-    font-size: 15px;
-    text-align: center;
-    vertical-align: top;
-    margin-top: -45px;
-    color: white;
 }
 div#content > nav{
     background-color: rgb(31,52,83);

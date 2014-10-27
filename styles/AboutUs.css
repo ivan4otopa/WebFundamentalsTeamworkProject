@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(white,rgb(49,104,150), black);
+    background: linear-gradient(white,rgb(49,104,150));
     font-family: "Arial", Times, sans-serif;
 }
 header {
@@ -182,14 +182,4 @@ p {
     font-weight: bold;
     color: #203C5B;
     font-style: italic;
-}
-footer {
-padding-top: 50px;
-}
-h3 {
-    font-size: 15px;
-    text-align: center;
-    vertical-align: top;
-    margin-top: -45px;
-    color: white;
 }
