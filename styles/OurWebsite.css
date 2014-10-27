@@ -2,7 +2,7 @@ body{
     background: linear-gradient(white,rgb(49,104,150));
     font-family: "Arial", Times, sans-serif;
 }
-div#content > header {
+header {
     border: 1px solid black;
     width: 900px;
     height: 94px;
@@ -23,7 +23,7 @@ div#content > header {
     border-bottom: none;
     background-color: rgb(214,214,214);
 }
-div#content > footer {
+footer {
     border: 1px solid black;
     border-top:none;
     width: 1000px;
@@ -33,18 +33,18 @@ div#content > footer {
     margin-left: 160px;
     background-color: rgb(31,52,83);
 }
-div#content > nav{
+nav{
     background-color: rgb(31,52,83);
     height: 45px;
     border-top: none;
 }
-div#content > nav> ul{
+ul{
     list-style-type: none;
     margin: 0px;
     margin-left: 20px;
     height: 100%;
 }
-div#content > nav> ul li{
+li{
     height: 70%;
     float: left;
     padding-left: 30px;
@@ -52,11 +52,11 @@ div#content > nav> ul li{
     margin-left: 3.5%;
     padding-top: 13px;
 }
-div#content > nav> ul > li:hover{
+li:hover{
     background:rgb(22,35,53);
     border-radius: 10px;
 }
-div#content > nav> ul > a{
+a{
     text-decoration: none;
     color: white;
     font-weight: bold;
