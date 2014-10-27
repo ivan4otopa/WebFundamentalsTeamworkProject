@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(white,rgb(49,104,150));
+    background: linear-gradient(white,rgb(49,104,150), black);
     font-family: "Arial", Times, sans-serif;
 }
 header {
@@ -68,6 +68,7 @@ a{
     height: 200px;
     float: left;
     margin: 30px;
+    margin-top: 0;
 }
 
 article::after {
@@ -96,6 +97,7 @@ article::after {
     height: 200px;
     float: right;
     margin: 30px;
+    margin-top: 0;
 }
 
 #third {
@@ -140,7 +142,7 @@ article::after {
 }
 
 #fifth img {
-    width: 200px;
+    widtg: 200px;
     height: 200px;
     float: left;
     margin: 30px;
@@ -182,4 +184,14 @@ p {
     font-weight: bold;
     color: #203C5B;
     font-style: italic;
+}
+footer {
+padding-top: 50px;
+}
+h3 {
+    font-size: 15px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: -45px;
+    color: white;
 }
