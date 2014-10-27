@@ -1,6 +1,6 @@
 form {
 	width: 275px;
-	height: 100%;
+	height: 92.5%;
 	float: left;
 	margin-left: 3%;
 }
@@ -16,7 +16,7 @@ input {
 
 #register {
 	margin-left: 50px;
-	color: rgb(49, 104, 150);;
+	color: rgb(49, 104, 150);
 	font-size: 27px;
 }
 
@@ -26,7 +26,7 @@ input {
 
 #gtroll {
 	width: 540px;
-	height: 100%;
+	height: 88.06%;
 	background-image: url("../images/gtroll.png");
 	background-repeat: no-repeat;
 	float: left;
@@ -38,7 +38,8 @@ input {
 	width: 200px;
 	height: 30px;
 	border: 3px solid rgb(49, 104, 150);
-	margin-top: 14%;
+	margin-top: 9%;
+    margin-left: 13%;
 	border-radius: 5px;
 	color: rgb(49, 104, 150);
 	font-weight: bold;
