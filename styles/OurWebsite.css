@@ -47,13 +47,13 @@ nav{
     height: 45px;
     border-top: none;
 }
-nav> ul {
+ul {
     list-style-type: none;
     margin: 0px;
     margin-left: 20px;
     height: 100%;
 }
-nav> ul li{
+li{
     height: 70%;
     float: left;
     padding-left: 30px;
@@ -61,12 +61,13 @@ nav> ul li{
     margin-left: 3.5%;
     padding-top: 13px;
 }
-nav> ul > li:hover{
+li:hover{
     background:rgb(22,35,53);
     border-radius: 10px;
 }
-nav> ul > a{
+a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
+
