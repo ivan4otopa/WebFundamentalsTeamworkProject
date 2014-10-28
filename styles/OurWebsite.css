@@ -1,6 +1,8 @@
 body{
     background: linear-gradient(white,rgb(49,104,150), black);
     font-family: "Arial", Times, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     border: 1px solid black;
@@ -10,7 +12,7 @@ header {
     padding-right: 50px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    margin-left: 160px;
+    margin: 0 auto;
     background-image: url("../images/header.png");
     border-bottom: none;
 }
@@ -18,7 +20,7 @@ header {
     border: 1px solid black;
     width: 1000px;
     height: 600px;
-    margin-left: 160px;
+    margin: 0 auto;
     border-top: none;
     border-bottom: none;
     background-color: rgb(214,214,214);
@@ -30,7 +32,7 @@ footer {
     height: 75px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 160px;
+    margin: 0 auto;
     background-color: rgb(31,52,83);
     padding-top: 50px;
 }
@@ -114,4 +116,31 @@ a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+@media all and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    section header{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
