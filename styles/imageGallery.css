@@ -1,3 +1,4 @@
+
 .slides {
 	padding: 0;
 	width: 430px;
@@ -117,31 +118,3 @@ input#img-6:checked ~
 	background: rgba(129,164,193,0.8);
 }
 
-/*balloon*/
-
-.triangle-right {
-	width:40%;
-	margin-left: 40px;
-	padding: 10px;
-	border-radius: 10px;
-	background: none repeat scroll 0% 0%;
-	background-color: rgba(255,255,255,0.6);
-	font-size: 1.5rem;
-	color: #cf5c3f;
-	position: absolute;
-	top: 5%;
-	left:30%;
-}
-
-.triangle-right:after {
-	content: "";
-	width: 0px;
-	border-width: 15px 40px 0px 0px;
-	border-color: transparent rgba(255,255,255,0.6);
-	border-style: solid;
-	display: block;
-	position: absolute;
-	top: 15px;
-	left: -40px;
-	bottom: auto;
-}
