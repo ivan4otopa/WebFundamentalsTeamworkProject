@@ -12,7 +12,7 @@ header {
     padding-right: 50px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    margin-left: 160px;
+    margin: 0 auto;
     background-image: url("../images/header.png");
     border-bottom: none;
 }
@@ -20,7 +20,7 @@ header {
     border: 1px solid black;
     width: 1000px;
     height: auto;
-    margin-left: 160px;
+    margin: 0 auto;
     border-top: none;
     border-bottom: none;
     background-color: rgb(214,214,214);
@@ -32,15 +32,24 @@ footer {
     height: 75px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 160px;
+    margin: 0 auto;
     background-color: rgb(31,52,83);
+    padding-top: 50px;
+}
+h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: -5%;
+    margin-left: 35%;
+    color: white;
+    width: 31%;
 }
 nav{
     background-color: rgb(31,52,83);
     height: 45px;
     border-top: none;
 }
-ul{
+ul {
     list-style-type: none;
     margin: 0px;
     margin-left: 20px;
@@ -58,6 +67,51 @@ li:hover{
     background:rgb(22,35,53);
     border-radius: 10px;
 }
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer > img {
+    float: left;
+}
+#pic {
+    width: 10%;
+    height: 50%;
+    padding-bottom: 4%;
+    padding-left:3%;
+}
+#whatif {
+    width: 10%;
+    height: 90%;
+    padding-bottom:3%;
+    padding-left:3%;
+}
+#cssvalidator{
+    width: 10%;
+    height: 25%;
+    padding-bottom: 4%;
+    padding-left:3%;
+}
+#htmlvalidator{
+    width: 10%;
+    height: 25%;
+    padding-bottom: 4%;
+    padding-left:3%;
+}
+#softuni {
+    width: 20%;
+    height: 70%;
+    padding-bottom: 4%;
+    padding-left:3%;
+}
+#trolino {
+    width: 15%;
+    padding-left:3%;
+    padding-bottom:4%;
+
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -188,9 +242,11 @@ p {
     color: #203C5B;
     font-style: italic;
 }
+
 footer {
 padding-top: 50px;
 }
+
 h3 {
     font-size: 15px;
     text-align: center;
