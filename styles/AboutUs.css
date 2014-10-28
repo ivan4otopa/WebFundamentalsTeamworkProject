@@ -1,6 +1,8 @@
 body{
     background: linear-gradient(white,rgb(49,104,150), black);
     font-family: "Arial", Times, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     border: 1px solid black;
@@ -195,4 +197,31 @@ h3 {
     vertical-align: top;
     margin-top: -45px;
     color: white;
+}
+
+@media all and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    section header{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
 }

@@ -75,3 +75,9 @@ article>h1:first-of-type {
     float: left;
     color: white;
 }
+
+@media all and (max-width: 1000px){
+	section header {
+		width: 100%;
+	}
+}
