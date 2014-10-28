@@ -67,3 +67,11 @@ button:hover{
     opacity: 1;
     font-weight: bold;
 }
+
+article>h1:first-of-type {
+    display: inline-block;
+    margin: 8px;
+    padding: 0px;
+    float: left;
+    color: white;
+}
